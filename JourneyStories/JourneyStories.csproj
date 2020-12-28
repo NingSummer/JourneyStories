@@ -32,7 +32,6 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-      <Content Include=".gitignore" />
       <Content Include="README.md" />
       <Content Include="stories\Autumn.xml" />
       <Content Include="stories\example.xml" />
