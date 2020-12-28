@@ -1,0 +1,140 @@
+﻿<StoriesPack>
+    <Stories>
+        <Condition>
+            <Seasons>
+                <!-- can be   [All,Spring,Summer,Winter,Winter]  more than one-->
+                <Season Value="Winter"/>
+            </Seasons>
+            <TimeStages>
+                <!-- can be   [All,Dawn,Morning,Noon,Evening,Night,Midnight]  more than one-->
+                <TimeStage Value="Dawn"/>
+            </TimeStages>
+            <Terrains>
+                <!-- can be   [All,Water,Mountain,Snow,Steppe,Plain,Desert,Swamp,Dune,Bridge,River,Forest,ShallowRiver,Lake,Canyon,RuralArea]  more than one-->
+                <Terrain Value="All"/>
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="0.7" Blue="1" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="寒冷的一夜终于过去了，你感到庆幸，‘谢天谢地，昨天晚上队伍里没有人冻死.’"/>
+            <Story Value="狂风吹卷着你的营帐，但是幸运的是，狂风的呼啸声逐渐变小了，慢慢长夜逐渐过去."/>
+            <Story Value="天还没有亮，你却被一阵寒意惊醒，大雪下了一夜。你撩开营帐，走入雪地之中，准备叫醒你的士兵们."/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Winter"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Morning"/>
+            </TimeStages>
+            <Terrains>
+
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="1" Blue="0.6" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="卡拉迪亚的冬天格外寒冷，你听到队伍中的士兵们热烈地讨论着北方传来的雪怪的传说."/>
+            <Story Value="朝阳从东边照耀在白雪之上，你身边的剑闪着寒光."/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Winter"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Noon"/>
+            </TimeStages>
+            <Terrains>
+
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="0.6" Blue="0.1" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="[冬-中午]大雪从早上下到了中午，路已经被皑皑大雪淹没，天色灰暗，你的队伍在大雪中艰难前行，队伍里的一个老兵赶上你说，‘队长，恕我直言，如果我们还想平安抵达下一个城堡，那就请您让我们休息下吧，我年轻时在这片区域狩猎，如果没记错的话，前方有一废墟，我们可以在那驻扎一阵.’"/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Winter"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Evening"/>
+            </TimeStages>
+            <Terrains>
+                <Terrain Value="Forest"/>
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="0.5" Blue="0" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="冬天寒冷的傍晚，树林深处一片黑暗，你和你的队伍在树林旁边勒住马，朝树林深处看看去."/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Winter"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Night"/>
+            </TimeStages>
+            <Terrains>
+                <Terrain Value="Forest"/>
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="0.5" Blue="1" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="半夜，寒风呼啸，似乎夹杂着可怕的声音，你心烦意乱，无法入睡."/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Winter"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Midnight"/>
+            </TimeStages>
+            <Terrains>
+
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="0.5" Green="0.5" Blue="1" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="深夜，营帐外狂风咆哮，你和其他士兵一样蜷缩在火堆旁，回想起年少时农庄中温暖的炉火，难以入睡."/>
+        </StoryList>
+    </Stories>
+
+</StoriesPack>

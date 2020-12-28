@@ -1,0 +1,7 @@
+J:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\JourneyStories\bin\Win64_Shipping_Client\JourneyStories.dll
+J:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\JourneyStories\bin\Win64_Shipping_Client\JourneyStories.pdb
+G:\iLesson\Project\JourneyStories\JourneyStories\JourneyStories\obj\Debug\JourneyStories.csprojAssemblyReference.cache
+G:\iLesson\Project\JourneyStories\JourneyStories\JourneyStories\obj\Debug\JourneyStories.csproj.CoreCompileInputs.cache
+G:\iLesson\Project\JourneyStories\JourneyStories\JourneyStories\obj\Debug\JourneyStories.csproj.CopyComplete
+G:\iLesson\Project\JourneyStories\JourneyStories\JourneyStories\obj\Debug\JourneyStories.dll
+G:\iLesson\Project\JourneyStories\JourneyStories\JourneyStories\obj\Debug\JourneyStories.pdb

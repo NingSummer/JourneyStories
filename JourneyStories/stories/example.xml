@@ -1,0 +1,36 @@
+﻿<StoriesPack>
+    <!-- 一系列故事的集合，这些故事发生的条件，故事的设置相同-->
+    <Stories>
+        <!-- 故事发生的条件，可以为空，为空时会随机调用-->
+        <Condition>
+            <!-- 故事发生的季节，如果没有特殊需要，设为All即可-->
+            <Seasons>
+                <!-- can be   [All,Spring,Summer,Autumn,Winter]  more than one-->
+                <Season Value="All"/>
+            </Seasons>
+            <!-- 故事发生在一天的时间段，一天分为6个时间段，分别是[黎明,早晨,上午,中午,傍晚,半夜,深夜]，如果没有特殊需要，设为All即可-->
+            <TimeStages>
+                <!-- can be   [All,Dawn,Morning,Noon,Evening,Night,Midnight]  more than one-->
+                <TimeStage Value="Morning"/>
+            </TimeStages>
+            <!-- 故事发生的地点，对应游戏世界地形中的15种地形，如果没有特殊需要，设为All即可-->
+            <Terrains>
+                <!-- can be   [All,Water,Mountain,Snow,Steppe,Plain,Desert,Swamp,Dune,Bridge,River,Forest,ShallowRiver,Lake,Canyon,RuralArea]  more than one-->
+                <Terrain Value="All"/>
+            </Terrains>
+        </Condition>
+        <!-- 故事展示的配置，可以为空-->
+        <Config>
+            <!-- 故事展示顺序优先级，数值从范围为1~10默认为5-->
+            <Priority Value="5"/>
+            <!-- 游戏展示故事时的颜色-->
+            <Color Red="1" Green="0.7" Blue="1" Alpha="0"/>
+            <!-- 故事展示的时候携带的音乐，还没完成-->
+            <Music Value=""/>
+        </Config>
+        <!-- 你所编写的所有故事列表-->
+        <StoryList>
+            <Story Value="在一个早上，你队伍中一个年轻的士兵找到了你，显然他还乳臭未干，他很感激你的队伍收留了他，他的所有家人都被一个领主掠夺走了，至今生死未卜，他在你眼前发下誓言：“总有一天，等我赚够了钱，我一定会找到他，为我的家人报仇.”"/>
+        </StoryList>
+    </Stories>
+</StoriesPack>

@@ -1,0 +1,145 @@
+﻿<StoriesPack>
+    <Stories>
+        <Condition>
+            <Seasons>
+                <!-- can be   [All,Spring,Summer,Autumn,Winter]  more than one-->
+                <Season Value="Autumn"/>
+            </Seasons>
+            <TimeStages>
+                <!-- can be   [All,Dawn,Morning,Noon,Evening,Night,Midnight]  more than one-->
+                <TimeStage Value="Dawn"/>
+            </TimeStages>
+            <Terrains>
+                <!-- can be   [All,Water,Mountain,Snow,Steppe,Plain,Desert,Swamp,Dune,Bridge,River,Forest,ShallowRiver,Lake,Canyon,RuralArea]  more than one-->
+                <Terrain Value="All"/>
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="0.7" Blue="1" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="秋天的清晨，你一觉醒来，初秋的空气萧瑟，冷风直钻身体."/>
+            <Story Value="睡梦中你感觉有人在拍你的肩膀，你睡眼朦胧地看到那是小队长，‘队长，天亮了，赶紧赶路吧’."/>
+            <Story Value="你很早就被一阵猫头鹰的声音吵醒，突然感觉身边一阵凉意."/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Autumn"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Morning"/>
+            </TimeStages>
+            <Terrains>
+
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="1" Blue="0.6" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="你的队伍路过一个小村庄，你看到袅袅炊烟升起，透过破旧的窗户，你看到女人正在烟火中准备早餐，孩子门仍在熟睡."/>
+            <Story Value="你的队伍路过一个小溪，士兵们用冰凉的溪水洗脸，视图驱赶早晨的困顿，你走下马，沿着河岸走到上游，将水带装满."/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Autumn"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Noon"/>
+            </TimeStages>
+            <Terrains>
+
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="0.6" Blue="0.1" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="你的队伍路过一个小村庄，你看到麦田翻涌着金色的麦浪，尽管行军匆忙，你还是提醒自己的士兵走得慢些，免得马踏坏了麦田."/>
+            <Story Value="下午狩猎收获颇丰，士兵们兴致勃勃，烤肉芳香四溢，你觉得旅途似乎没有那么疲顿了."/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Autumn"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Evening"/>
+            </TimeStages>
+            <Terrains>
+                <Terrain Value="Forest"/>
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="0.5" Blue="0" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="秋天傍晚，红色的夕阳染红了天边，在森林深处投下橘红色的斑点."/>
+            <Story Value="残阳如血，你的目光被天边的火烧云吸引，看见一排又一排的大雁真飞往南边."/>
+            <Story Value="天色渐暗，你命令你的队伍扎营休息，士兵们安营扎寨，燃起营火，结束劳累的一天."/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Autumn"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Night"/>
+            </TimeStages>
+            <Terrains>
+                <Terrain Value="Forest"/>
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="1" Green="0.5" Blue="1" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="你和你的士兵们在森林边上安营扎寨，士兵们围坐在营火旁边，火里烤着中午猎到的野鹿，烤肉的香味飘散到森林深处，你队伍里的一个老兵坐卧不安，‘队长，你看到我左脸上的伤疤了吗，那是一头熊造成的.’"/>
+            <Story Value="今天没有围猎到任何猎物，你的士兵只能在营火边吃干粮了，一个年轻的士兵对你轻声抱怨，‘队长，下午的时候，要是你允许我追击那头鹿，我们现在就不用饿肚子了.’你看着他沉默不语，你想到了这片森林中传说中游荡的巨熊."/>
+        </StoryList>
+    </Stories>
+
+    <Stories>
+        <Condition>
+            <Seasons>
+                <Season Value="Autumn"/>
+            </Seasons>
+            <TimeStages>
+                <TimeStage Value="Midnight"/>
+            </TimeStages>
+            <Terrains>
+
+            </Terrains>
+        </Condition>
+        <Config>
+            <Priority Value="5"/>
+            <Color Red="0.5" Green="0.5" Blue="1" Alpha="0"/>
+            <Music Value=""/>
+        </Config>
+        <StoryList>
+            <Story Value="夜深人静，士兵们呼噜翻天，你却无法入睡，只听到营火在耳边噼里啪啦破碎的声音."/>
+            <Story Value="深夜，森林里万籁俱寂，可是你的队伍仍在悄然前进，你从你的士兵脸上看到了疲倦，不满和愤怒."/>
+        </StoryList>
+    </Stories>
+
+</StoriesPack>
