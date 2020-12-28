@@ -32,11 +32,11 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-      <Content Include=".gitignore" />
-      <Content Include="README.md" />
-      <Content Include="stories\Autumn.xml" />
-      <Content Include="stories\example.xml" />
-      <Content Include="stories\Winter.xml" />
+      <Content Include="example\Autumn.xml" />
+      <Content Include="example\example.xml" />
+      <Content Include="example\example_english.xml" />
+      <Content Include="example\Winter.xml" />
+      <Content Include="mod_config\mod_config.xml" />
     </ItemGroup>
     <ItemGroup>
       <Reference Include="System.Xml" />

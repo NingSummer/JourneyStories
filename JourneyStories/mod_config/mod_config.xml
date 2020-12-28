@@ -1,0 +1,10 @@
+<ModConfig>
+    <!--If you use english, change Language to 'en'-->
+    <Config DebugMode="false"
+            CheckIntervalSecond="5"
+            BaseTimeSec="15"
+            TimeFactor="0.5"
+            PositionFactor="0.05"
+			Language="cn"
+    />
+</ModConfig>

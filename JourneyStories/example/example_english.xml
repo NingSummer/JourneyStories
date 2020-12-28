@@ -1,0 +1,40 @@
+﻿<StoriesPack>
+    <!-- A collection of a series of stories, the conditions under which these stories happen, and the story settings are the same-->
+    <Stories>
+        <!-- The condition of story, if empty, will random select one-->
+        <Condition>
+            <!-- The Seasons of story happens，if you don't know how to set it， set All-->
+            <Seasons>
+                <!-- can be   [All,Spring,Summer,Autumn,Winter]  more than one-->
+                <Season Value="All"/>
+            </Seasons>
+            <!-- The story takes place in a time period of one day, and the day is divided into 6 time periods，they are[Dawn,Morning,Noon,Evening,Night,Midnight]，if you don't know how to set it， set All-->
+            <TimeStages>
+                <!-- can be   [All,Dawn,Morning,Noon,Evening,Night,Midnight]  more than one-->
+                <TimeStage Value="Night"/>
+            </TimeStages>
+            <!-- The place where the story takes place corresponds to the 15 types of terrain in the game world. If you don't know how to set it, set it to All.-->
+            <Terrains>
+                <!-- can be   [All,Water,Mountain,Snow,Steppe,Plain,Desert,Swamp,Dune,Bridge,River,Forest,ShallowRiver,Lake,Canyon,RuralArea]  more than one-->
+                <Terrain Value="All"/>
+            </Terrains>
+        </Condition>
+        <!-- Setting how stories show，can be empty-->
+        <Config>
+            <!-- The priority of showing story,range from 1~10, use 5 as default-->
+            <Priority Value="5"/>
+            <!-- The color of text-->
+            <Color Red="1" Green="0.7" Blue="1" Alpha="0"/>
+            <!-- The music ,TBD-->
+            <Music Value=""/>
+        </Config>
+        <!-- The list of story that you should write-->
+        <StoryList>
+            <Story Value="At the night, a young soldier in your team found you. Obviously he was still stinking. He was very grateful that your team had taken him in. All his family members were looted by a lord, and their are life or death uncertain. He is in front of you. Swear an oath: 'One day, when I make enough money, I will find him and avenge my family.'"/>
+            <Story Value="At the night in Sahara Desert,the moonlight spills on the sand, the sand ripple dance in the wind like silver waves. Your soldiers are aready asleep, you put down the book on your hand and smell the cool air, fatigue likes a vortex that drags you into the dream ocean..."/>
+            <Story Value="You and your soldiers pass by the Black Forest. There is an evil legend of this forest, people dare not set foot here. Dense fog diffuses all around and the biting cold was revealed in the air. The horse under you jets nervously and you notice that some of your soldiers are shivering."/>
+            <Story Value="When you and your soldiers pass by the Amera Castle, you see several young soldiers are training. You bring to mind the training scene when you are young in Zenda City, you father taught you how to shoot arrows."/>
+            <Story Value="When you pass by the by the battlefield, you hear the shouts of soldiers and the hiss of war horses, you smell the blood in the air. You notice that some of your soldiers are shivering , others hold the weapon more tightly in their hand."/>
+        </StoryList>
+    </Stories>
+</StoriesPack>
