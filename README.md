@@ -1,4 +1,7 @@
 # JourneyStories
+
+## Nexus: https://www.nexusmods.com/mountandblade2bannerlord/mods/2563
+
 Create a real Calradia by many short stories.
 
 In this mod, you can:
@@ -17,7 +20,7 @@ What will be added into the mod in the future?
 
 3.Others...
 
-#How to use this mod:
+# How to use this mod:
 ## 1.Write your own stories: 
 
 All of the stories are stored in path of your game: 
@@ -30,11 +33,17 @@ If your language is chinese, the path will be:
 ````
 you can find Example.xml. Copy it in the same path and rename to a new name, add your stories in it.
 
-2.Share your stories to others:
+## 2.Share your stories to others:
 
 Share all data in :
 ````
 \Mount & Blade II Bannerlord\Modules\JourneyStories\ModuleData\stories\en
+````
+
+## 3. Mod configs
+Mod configs file is in
+````
+\Mount & Blade II Bannerlord\Modules\JourneyStories\ModuleData\config\mod_config.xml
 ````
 which is:
 ````
